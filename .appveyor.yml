@@ -1,0 +1,18 @@
+os:
+  - Visual Studio 2017
+
+# x86 and x64 platforms.
+platform:
+  - x86
+  - x64
+
+# build Configurations, i.e. Debug, Release, etc.
+configuration:
+  - Release
+
+# build with MSBuild
+build:
+  project: CChromaEditor.sln        # path to Visual Studio solution or project
+
+artifacts:
+  - path: '**\*.dll'
